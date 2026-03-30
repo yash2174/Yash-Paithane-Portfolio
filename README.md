@@ -1,4 +1,4 @@
-# 🚀 Alex Mercer — Full Stack Portfolio
+# 🚀 Yash Paithane — Full Stack Portfolio
 
 A visually stunning, fully responsive portfolio website built with React (Vite), Tailwind CSS, Framer Motion on the frontend, and Node.js + Express + MongoDB on the backend.
 
