@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Contact = require('../models/Contact');
 
+export const API_URL = "https://yash-paithane-portfolio.onrender.com/api/contact"
 // POST /api/contact
 router.post('/', async (req, res) => {
   try {

@@ -5,6 +5,7 @@ import {
   , RiLinkedinBoxLine, RiCheckLine, RiInstagramLine
 } from 'react-icons/ri'
 import toast from 'react-hot-toast'
+import { API_URL } from '../routes/contactRoutes.js'
 
 const socials = [
   { icon: <RiWhatsappLine size={20} />, href: 'https://wa.me/8482868156', label: 'WhatsApp' },
@@ -112,7 +113,7 @@ export default function Contact() {
 
     setLoading(true)
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch(API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
