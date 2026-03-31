@@ -75,7 +75,7 @@ export default function Hero() {
             {/* Name */}
             <motion.h1
               variants={item}
-              className="font-display font-bold leading-none mb-4 mt-4"
+              className="font-display font-bold leading-none mb-4 mt-8"
               style={{ fontSize: 'clamp(2rem, 6vw, 4.5rem)' }}
             >
               <span className="block text-white">Yash</span>
