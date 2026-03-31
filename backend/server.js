@@ -13,11 +13,12 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     "http://localhost:5174",
-    "https://yash-paithane-portfolio.vercel.app/"
+    "https://yash-paithane-portfolio.vercel.app"
   ],
   methods: ['GET', 'POST'],
   credentials: true
 }))
+app.options('*', cors()); 
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true }));
 
