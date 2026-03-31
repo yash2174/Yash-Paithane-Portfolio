@@ -5,7 +5,9 @@ import {
   , RiLinkedinBoxLine, RiCheckLine, RiInstagramLine
 } from 'react-icons/ri'
 import toast from 'react-hot-toast'
-import { API_URL } from '../routes/contactRoutes.js'
+
+export const API_URL = "https://yash-paithane-portfolio.onrender.com/api/contact"
+
 
 const socials = [
   { icon: <RiWhatsappLine size={20} />, href: 'https://wa.me/8482868156', label: 'WhatsApp' },
